@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/LiuYiBest/OneTreasure#readme",
   "dependencies": {
-    "vue": "^3.2.38"
+    "vue": "^2.5.17",
+    "vuepress": "0.13.1"
   }
 }
