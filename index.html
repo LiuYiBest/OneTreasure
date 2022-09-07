@@ -32,43 +32,15 @@
             margin: 20px;
         }
 
-        .one-button {
-            height: var(--button-height);
-            padding: 0 1em;
-            font: inherit;
-            border-radius: var(--border-radius);
-            border: 1px solid var(--border-color);
-            background: var(--button-bg);
-        }
-
-        .one-button:hover {
-            border-color: var(--border-color-hover);
-        }
-
-        .one-button:active {
-            background: var(--button-active-bg);
-        }
-
-        .one-button:focus {
-            outline: none;
-        }
     </style>
 </head>
 
 <body>
 <div id="app">
-    <one-button class=""></one-button>
+    <one-button></one-button>
 </div>
 <script src="./node_modules/vue/dist/vue.min.js"></script>
-<script src="button.js"></script>
-<script>
-    new Vue({
-        el: '#app',
-        data: {
-            message: 'hi'
-        }
-    })
-</script>
+<script src="./src/app.js"></script>
 
 </body>
 </html>
